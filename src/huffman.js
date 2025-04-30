@@ -45,6 +45,8 @@ function generateHuffmanCodes(node, prefix = '', codes = {}) {
 }
 
 const inputText = "BE STRONG, YOUNG MAN! THROUGH THIS WAY ONE GETS TO THE STARS.";
+const inputText1 = "WHERE GOD HAS A CHURCH THE DEVIL WILL HAVE HIS CHAPEL.";
+
 const { root, frequencies } = buildHuffmanTree(inputText);
 const huffmanCodes = generateHuffmanCodes(root);
 
